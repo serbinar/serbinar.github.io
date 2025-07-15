@@ -1,0 +1,676 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"/>
+
+</head>
+<body>
+    <div id="modal" class="modal_product">
+        <div class="modal_bg"></div>
+        <div class="modal_content">
+            <div class="modal_container">
+                <img id="modal_img" class="modal_img" src="" alt="">
+                <button class="modal_exit" onclick="collapseImg()">x</button>
+            </div>
+        </div>
+    </div>
+    <div class="background-blue">
+        <div class="container">
+            <header class="header">
+                <img src="../img/Group%202%201.png" alt="Logo" width="100" height="66">
+                <button class="menu" type="button">☰</button>
+            </header>
+        </div>
+    </div>
+    <div class="background-intro">
+        <div class="container">
+            <div class="intro_wrap">
+                <div class="intro_slides">
+                    <div>
+                        <div class="intro">
+                            <h1 class="title">
+                                мисли <br/> ГЛОБАЛЬНO
+                            </h1>
+                            <p class="intro-text">
+                                Di Gі — це діджитал агенція повного циклу, спрямована на найкращий результат наших клієнтів в маркетингу,
+                                продажах та управленні
+                            </p>
+                            <div class="button-wrap">
+                                <button class="button-default">
+                                    детальніше
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="intro intro-orange">
+                            <h1 class="title">
+                                мисли <br/> ГЛОБАЛЬНO 2
+                            </h1>
+                            <p class="intro-text">
+                               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci alias aliquam consequuntur culpa dignissimos doloribus ducimus earum excepturi incidunt nemo, nesciunt omnis quis rem reprehenderit repudiandae vel vitae voluptates.
+                            </p>
+                            <div class="button-wrap">
+                                <button class="button-default">
+                                    детальніше
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="intro">
+                            <h1 class="title">
+                                мисли <br/> ГЛОБАЛЬНO 3
+                            </h1>
+                            <p class="intro-text">
+                                Di Gі — це діджитал агенція повного циклу, спрямована на найкращий результат наших клієнтів в маркетингу,
+                                продажах та управленні
+                            </p>
+                            <div class="button-wrap">
+                                <button class="button-default">
+                                    детальніше
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-wrap">
+                    <button id="previousIntro" class="previous-content"><</button>
+                    <button id="nextIntro" class="next-content"> ></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background-blue">
+        <div class="container">
+            <div class="intro-bottom">
+                <div class="intro-bottom-text">
+                    <p class="love-us">
+                        Ви полюбите нас з першої зустрічі!
+                    </p>
+                    <p class="love-us-why">
+                        Ми надаємо комплексний підхід до просування компанії, <br/>
+                        продуктів та послуг в цифровій сфері.
+                    </p>
+                </div>
+                <button class="button-default button-white">
+                    передзвоніть мені
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="background-white">
+        <div class="container">
+            <div class="services">
+                <div class="services__text">
+                    <p class="services__text__main">
+                        Сервіс
+                    </p>
+                    <div class="services__text__about">
+                        <p class="services__text__about__text1">
+                            Від ідеї до незабутнього та
+                            вимірюваного результату.
+                        </p>
+                        <div class="divider"></div>
+                        <p class="services__text__about__text2">
+                            Інтеграція бездоганного виробництва, передових технологій та ретельного вимірювання продуктивності
+                        </p>
+                    </div>
+                </div>
+                <div class="services__grid">
+                    <div class="services__grid__element">
+                        <img src="../img/Object.png" alt="СТРАТЕГІЯ">
+                        <p>
+                            СТРАТЕГІЯ
+                        </p>
+                        <p class="services__grid__element__about">
+                            Створимо унікальний та зручний дизайн
+                        </p>
+                        <a href="#" class="services__grid__element__link">
+                            ДЕТАЛЬНІШЕ →
+                        </a>
+                    </div>
+                    <div class="services__grid__element">
+                        <img src="../img/Object.svg" alt="АНАЛІЗ">
+                        <p>
+                            АНАЛІЗ
+                        </p>
+                        <p class="services__grid__element__about">
+                            Створимо унікальний та зручний дизайн
+                        </p>
+                        <a href="#" class="services__grid__element__link">
+                            ДЕТАЛЬНІШЕ →
+                        </a>
+                    </div>
+                    <div class="services__grid__element">
+                        <img src="../img/merezi.png" alt="СОЦ МЕРЕЖІ">
+                        <p>
+                            СОЦ МЕРЕЖІ
+                        </p>
+                        <p class="services__grid__element__about">
+                            Створимо унікальний та зручний дизайн
+                        </p>
+                        <a href="#" class="services__grid__element__link">
+                            ДЕТАЛЬНІШЕ →
+                        </a>
+                    </div>
+                    <div class="services__grid__element">
+                        <img src="../img/rozvitok.png" alt="РОЗВИТОК">
+                        <p>
+                            РОЗВИТОК
+                        </p>
+                        <p class="services__grid__element__about">
+                            Створимо унікальний та зручний дизайн
+                        </p>
+                        <a href="#" class="services__grid__element__link">
+                            ДЕТАЛЬНІШЕ →
+                        </a>
+                    </div>
+                    <div class="services__grid__element">
+                        <img src="../img/content.png" alt="КОНТЕНТ ">
+                        <p>
+                            КОНТЕНТ
+                        </p>
+                        <p class="services__grid__element__about">
+                            Створимо унікальний та зручний дизайн
+                        </p>
+                        <a href="#" class="services__grid__element__link">
+                            ДЕТАЛЬНІШЕ →
+                        </a>
+                    </div>
+                    <div class="services__grid__element">
+                        <img src="../img/design.png" alt="ДИЗАЙН UX ">
+                        <p>
+                            ДИЗАЙН UX
+                        </p>
+                        <p class="services__grid__element__about">
+                            Створимо унікальний та зручний дизайн
+                        </p>
+                        <a href="#" class="services__grid__element__link">
+                            ДЕТАЛЬНІШЕ →
+                        </a>
+                    </div>
+                    <div class="services__grid__element">
+                        <img src="../img/ad.png" alt="ТАРГЕТОВАНА РЕКЛАМА">
+                        <p>
+                            ТАРГЕТОВАНА РЕКЛАМА
+                        </p>
+                        <p class="services__grid__element__about">
+                            Створимо унікальний та зручний дизайн
+                        </p>
+                        <a href="#" class="services__grid__element__link">
+                            ДЕТАЛЬНІШЕ →
+                        </a>
+                    </div>
+                    <div class="services__grid__element">
+                        <img src="../img/product.png" alt="ПРОДУКТ">
+                        <p>
+                            ПРОДУКТ
+                        </p>
+                        <p class="services__grid__element__about">
+                            Створимо унікальний та зручний дизайн
+                        </p>
+                        <a href="#" class="services__grid__element__link">
+                            ДЕТАЛЬНІШЕ →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background-products">
+        <div class="container">
+            <div class="products">
+                <p class="products__title">
+                    Наші Проєкти
+                </p>
+                <div class="divider divider-white"></div>
+                <div class="products__content-wrap">
+                    <div class="products__content-wrap__content">
+                        <div class="wrap_inf">
+                            <img id="img_products1" class="products__content-wrap__content__img" src="../img/Portfolio-1.png" alt="Lalique бутик">
+                            <div class="products__inf"></div>
+                            <div class="product__inf__content_wrap">
+                                <div class="show_inf">
+                                    <div class="show_inf__text">
+                                        Тут повинна бути якась інформація про продукт.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Adipisci amet animi culpa distinctio earum excepturi expedita iste iusto natus
+                                        nostrum numquam pariatur quia, sapiente tenetur, unde velit vitae voluptatem, voluptatibus.
+                                    </div>
+                                </div>
+                                <button class="expand_img" type="button" onclick="expandImg('img_products1')">
+                                    <img src="../img/search.png" alt="" width="30px">
+                                </button>
+                            </div>
+                        </div>
+                        <p class="products__content-wrap__content__name">
+                            Lalique бутик
+                        </p>
+                    </div>
+                    <div class="products__content-wrap__content">
+                        <div class="wrap_inf">
+                            <img id="img_products2" class="products__content-wrap__content__img" src="../img/Portfolio-2.png" alt="Будівництво домів">
+                            <div class="products__inf"></div>
+                            <div class="product__inf__content_wrap">
+                                <div class="show_inf">
+                                    <div class="show_inf__text">
+                                        Тут повинна бути якась інформація про продукт.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Adipisci amet animi culpa distinctio earum excepturi expedita iste iusto natus
+                                        nostrum numquam pariatur quia, sapiente tenetur, unde velit vitae voluptatem, voluptatibus.
+                                    </div>
+                                </div>
+                                <button class="expand_img" type="button" onclick="expandImg('img_products2')">
+                                    <img src="../img/search.png" alt="" width="30px">
+                                </button>
+                            </div>
+                        </div>
+                        <p class="products__content-wrap__content__name">
+                            Будівництво домів
+                        </p>
+                    </div>
+                    <div class="products__content-wrap__content">
+                        <div class="wrap_inf">
+                            <img id="img_products3" class="products__content-wrap__content__img" src="../img/mask.png" alt="Кавʼярня">
+                            <div class="products__inf"></div>
+                            <div class="product__inf__content_wrap">
+                                <div class="show_inf">
+                                    <div class="show_inf__text">
+                                        Тут повинна бути якась інформація про продукт.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Adipisci amet animi culpa distinctio earum excepturi expedita iste iusto natus
+                                        nostrum numquam pariatur quia, sapiente tenetur, unde velit vitae voluptatem, voluptatibus.
+                                    </div>
+                                </div>
+                                <button class="expand_img" type="button" onclick="expandImg('img_products3')">
+                                    <img src="../img/search.png" alt="" width="30px">
+                                </button>
+                            </div>
+                        </div>
+                        <p class="products__content-wrap__content__name">
+                            Кавʼярня
+                        </p>
+                    </div>
+                    <div class="products__content-wrap__content">
+                        <div class="wrap_inf">
+                            <img id="img_products4" class="products__content-wrap__content__img" src="../img/Portfolio-4.png" alt="Унікальні тури">
+                            <div class="products__inf"></div>
+                            <div class="product__inf__content_wrap">
+                                <div class="show_inf">
+                                    <div class="show_inf__text">
+                                        Тут повинна бути якась інформація про продукт.
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Adipisci amet animi culpa distinctio earum excepturi expedita iste iusto natus
+                                        nostrum numquam pariatur quia, sapiente tenetur, unde velit vitae voluptatem, voluptatibus.
+                                    </div>
+                                </div>
+                                <button class="expand_img" type="button" onclick="expandImg('img_products4')">
+                                    <img src="../img/search.png" alt="" width="30px">
+                                </button>
+                            </div>
+                        </div>
+                        <p class="products__content-wrap__content__name">
+                            Унікальні тури
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background-white">
+        <div class="container">
+            <div class="wrap_team">
+                <div class="team_container">
+                    <img class="team__img" src="../img/video.png" alt="video">
+                    <div class="team_content">
+                        <p class="team_title">
+                            Команда
+                        </p>
+                        <div class="divider"></div>
+                        <p class="team_text">
+                            Наша команда — це наша найбільша цінність.
+                            Ми наполегливо працювали, щоб створити групу експертів,
+                            чиї навички доповнюють один одного.
+                            У членів нашої команди різні історії, але ми розділяємо загальну пристрасть до ідеалу.
+                            Ми віримо, щоб залишатись професіоналом, потрібно розвиватись, тому ми постійно шукаємо способи,
+                            як стати краще в тому, що ми робимо.
+                        </p>
+                        <button class="button-default">
+                            ДИВИТИСЬ ВІДЕО
+                        </button>
+                    </div>
+                </div>
+                <button class="button-default button-team_media">
+                    ДИВИТИСЬ ВІДЕО
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="background_beige">
+        <div class="container">
+            <div class="news">
+                <button class="news__add" onclick="showModalNews()">+</button>
+                <div class="news__title_wrap">
+                    <p class="news__title">
+                        Останні Новини
+                    </p>
+                    <div class="divider"></div>
+                </div>
+                <div id="newsContainer" class="news__container">
+                    <div class="news__content">
+                        <div class="news__content__hover-effect"></div>
+                        <img src="../img/news-1.png" alt="">
+                        <div class="news__content_name">
+                            <p>
+                                3Д в брендингу
+                            </p>
+                        </div>
+                        <div class="show_inf show_inf-centered show_inf-white">
+                            <div class="show_inf__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur corporis debitis deleniti deserunt fugit, illum natus nihil obcaecati officiis omnis perferendis praesentium, quas quia quo recusandae reiciendis repellat ut.
+                            </div>
+                        </div>
+                        <button class="remove_news" onclick="removeNews(event)">-</button>
+                    </div>
+                    <div class="news__content">
+                        <div class="news__content__hover-effect"></div>
+                        <img src="../img/news-2.png" alt="">
+                        <div class="news__content_name">
+                            <p>
+                                Контекстна реклама
+                            </p>
+                        </div>
+                        <div class="show_inf show_inf-centered show_inf-white">
+                            <div class="show_inf__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur corporis debitis deleniti deserunt fugit, illum natus nihil obcaecati officiis omnis perferendis praesentium, quas quia quo recusandae reiciendis repellat ut.
+                            </div>
+                        </div>
+                        <button class="remove_news" onclick="removeNews(event)">-</button>
+                    </div>
+                    <div class="news__content">
+                        <div class="news__content__hover-effect"></div>
+                        <img src="../img/news-3.png" alt="">
+                        <div class="news__content_name">
+                            <p>
+                                Графіка
+                            </p>
+                        </div>
+                        <div class="show_inf show_inf-centered show_inf-white">
+                            <div class="show_inf__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur corporis debitis deleniti deserunt fugit, illum natus nihil obcaecati officiis omnis perferendis praesentium, quas quia quo recusandae reiciendis repellat ut.
+                            </div>
+                        </div>
+                        <button class="remove_news" onclick="removeNews(event)">-</button>
+                    </div>
+                    <div class="news__content">
+                        <div class="news__content__hover-effect"></div>
+                        <img src="../img/news-4.png" alt="">
+                        <div class="news__content_name">
+                            <p>
+                                Корпоративна культура
+                            </p>
+                        </div>
+                        <div class="show_inf show_inf-centered show_inf-white">
+                            <div class="show_inf__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur corporis debitis deleniti deserunt fugit, illum natus nihil obcaecati officiis omnis perferendis praesentium, quas quia quo recusandae reiciendis repellat ut.
+                            </div>
+                        </div>
+                        <button class="remove_news" onclick="removeNews(event)">-</button>
+                    </div>
+                    <div class="news__content">
+                        <div class="news__content__hover-effect"></div>
+                        <img src="../img/news-5.png" alt="">
+                        <div class="news__content_name">
+                            <p>
+                                Унікальний дизайн
+                            </p>
+                        </div>
+                        <div class="show_inf show_inf-centered show_inf-white">
+                            <div class="show_inf__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur corporis debitis deleniti deserunt fugit, illum natus nihil obcaecati officiis omnis perferendis praesentium, quas quia quo recusandae reiciendis repellat ut.
+                            </div>
+                        </div>
+                        <button class="remove_news" onclick="removeNews(event)">-</button>
+                    </div>
+                    <div class="news__content">
+                        <div class="news__content__hover-effect"></div>
+                        <img src="../img/news-6.png" alt="">
+                        <div class="news__content_name">
+                            <p>
+                                Погляд зі сторони
+                            </p>
+                        </div>
+                        <div class="show_inf show_inf-centered show_inf-white">
+                            <div class="show_inf__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur corporis debitis deleniti deserunt fugit, illum natus nihil obcaecati officiis omnis perferendis praesentium, quas quia quo recusandae reiciendis repellat ut.
+                            </div>
+                        </div>
+                        <button class="remove_news" onclick="removeNews(event)">-</button>
+                    </div>
+                    <div class="news__content">
+                        <div class="news__content__hover-effect"></div>
+                        <img src="../img/news-7.png" alt="">
+                        <div class="news__content_name">
+                            <p>
+                                Соц мережі та їх користь
+                            </p>
+                        </div>
+                        <div class="show_inf show_inf-centered show_inf-white">
+                            <div class="show_inf__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur corporis debitis deleniti deserunt fugit, illum natus nihil obcaecati officiis omnis perferendis praesentium, quas quia quo recusandae reiciendis repellat ut.
+                            </div>
+                        </div>
+                        <button class="remove_news" onclick="removeNews(event)">-</button>
+                    </div>
+                    <div class="news__content">
+                        <div class="news__content__hover-effect"></div>
+                        <img src="../img/news-8.png" alt="">
+                        <div class="news__content_name">
+                            <p>
+                                Ексклюзивність
+                            </p>
+                        </div>
+                        <div class="show_inf show_inf-centered show_inf-white">
+                            <div class="show_inf__text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur corporis debitis deleniti deserunt fugit, illum natus nihil obcaecati officiis omnis perferendis praesentium, quas quia quo recusandae reiciendis repellat ut.
+                            </div>
+                        </div>
+                        <button class="remove_news" onclick="removeNews(event)">-</button>
+                    </div>
+                    <div class="news__content news__content-break"></div>
+                    <div class="news__content news__content-break"></div>
+                    <div class="news__content news__content-break"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <dialog class="modal_news" id="modalNews">
+        <button class="news__close" onclick="closeModalNews()">x</button>
+        <p class="modal_news__title">
+            Додайте свою новину
+        </p>
+        <form name="newsForm" class="modal_news__form" onsubmit="addNews(event)">
+            <input type="text" name="title"/>
+            <input type="file" name="image"/>
+            <textarea name="information" cols="30" rows="10"></textarea>
+            <input type="submit">
+        </form>
+    </dialog>
+    <div class="background-white">
+        <div class="container">
+            <div class="quote">
+                <div class="quote__content">
+                    <img src="../img/quotes.svg" alt="" class="quote__symbol">
+                    <p class="quote__text">
+                        Якщо треба створити або підняти імідж компанії,
+                        то <span>діджитал-маркетинг</span> є найбільш влучним
+                    </p>
+                    <p class="quote__author">
+                        - Маргарита Акулич
+                    </p>
+                </div>
+                <div class="circle-slide-wrap">
+                    <div class="slide_circle slide_circle-blue"></div>
+                    <div class="slide_circle_current slide_circle_current-black_border"></div>
+                    <div class="slide_circle slide_circle-blue"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="background-blue">
+        <div class="container">
+            <footer class="footer">
+                <div class="footer__logo">
+                    <img src="../img/Group%202%201.png" alt="digi">
+                </div>
+                <div class="footer__content">
+                    <p class="footer__text">
+                        Ми хотіли б почути все про ваш проєкт. Звʼяжіться з нами!
+                    </p>
+                    <div class="footer__social_media_container">
+                        <div class="footer__social_media footer__social_media-first">
+                            <a href="#">
+                                <img src="../img/facebook_icon.png" alt="facebook">
+                            </a>
+                        </div>
+                        <div class="footer__social_media">
+                            <a href="#">
+                                <img src="../img/google_icon.png" alt="google">
+                            </a>
+                        </div>
+                        <div class="footer__social_media">
+                            <a href="#">
+                                <img src="../img/twitter_icon.png" alt="twitter">
+                            </a>
+                        </div>
+                        <div class="footer__social_media footer__social_media-last">
+                            <a href="#">
+                                <img src="../img/pinterest_icon.png" alt="pinterest">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__information_container">
+                        <div class="footer__information">
+                            <p class="footer__information__title">
+                                КОНТАКТИ
+                            </p>
+                            <ul class="footer__information__text">
+                                <li>
+                                    <a href="tel:+3805555566">
+                                        +380 555 55 66
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:digi@gmail.com">digi@gmail.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__information">
+                            <p class="footer__information__title">
+                                АДРЕСА
+                            </p>
+                            <ul class="footer__information__text">
+                                <li>
+                                    Пр. Науки 107
+                                </li>
+                                <li>
+                                    Kиїв / Україна
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__information">
+                            <p class="footer__information__title">
+                                ДОПОМОГА
+                            </p>
+                            <ul class="footer__information__text">
+                                <li>
+                                    <a href="#">
+                                        Як з нами звʼязатись?
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Що таке діджитал?
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Вартість послуг
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__information">
+                            <p class="footer__information__title">
+                                МЕНЮ
+                            </p>
+                            <ul class="footer__information__text">
+                                <li>
+                                    <a href="#">
+                                        Наші проєкти
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Команда
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Блог
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="background_beige">
+        <div class="container">
+            <div class="page_up">
+                <button class="page_up__button" onclick="pageUp()">
+                    <p class="page_up__text">
+                        НАГОРУ
+                    </p>
+                    <div class="page_up__img"></div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="modal.js"></script>
+    <script src="news.js" ></script>
+    <script>
+        function pageUp () {
+            window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+            });
+        }
+    </script>
+    <script
+            src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+            integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="introSlide.js" ></script>
+</body>
+</html>
+
+
+
+
